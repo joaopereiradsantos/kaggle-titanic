@@ -46,20 +46,7 @@ train_df.head(10)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -299,7 +286,7 @@ sns.heatmap(train_df.isnull(),yticklabels=False,cbar=False, cmap="Pastel1")
 
 
     
-![png](output_6_1.png)
+<img src="https://github.com/pranaymodukuru/kaggle-titanic/imgs/output_6_1.png.png" alt="Loss vs Epoch" style="max-width:100%;">
     
 
 
